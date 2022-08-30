@@ -16,7 +16,7 @@ your submission. The repository contains a new [Rails API application](https://g
 is also no included test framework, so if you choose to write tests you will need to add whichever framework you are comfortable with
 as well as instructions on how to run your tests.
 
-Below you are given a list of business requirements. Within a reasonable timeframe (spend no more than a few hours!) we 
+Below you are given a list of business requirements. Within a reasonable timeframe (try to spend no more than 2 hours!) we 
 would like you to implement the requirements as you see fit. In addition to the requirements listed, please leave time 
 to fill out the [requirements questions](#requirements-questions) and address any [future concerns](#future-concerns) you 
 may think of. You are also encouraged to add sections of your own to the README, such as instructions on how to use the system or how to run your tests.
