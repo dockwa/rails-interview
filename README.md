@@ -31,9 +31,8 @@ exist:
 2. The media type for APIs should be JSON
 3. JSON keys should be camelCased (ingress and egress)
    >**NOTE**: Ruby and thus Rails convention is to use snake_case by default
-4. The system should support running multiple instances of the API
-5. Successful responses should return HTTP status code 200
-6. Invalid requests should return HTTP status code 400
+4. Successful responses should return HTTP status code 200
+5. Invalid requests should return HTTP status code 400
 
 | Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
