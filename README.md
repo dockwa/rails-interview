@@ -11,15 +11,43 @@ of the implementation logic written and designed by you. Our goal is to get as r
 - how you implement and design your code
 - your understanding of how a system might scale
 
-The first step is to use this template to create a new repository on Github. This will become the repository you will share with us as
+The first step is to use this template to create a new repository on GitHub. This will become the repository you will share with us as
 your submission. The repository contains a new [Rails API application](https://guides.rubyonrails.org/api_app.html). There
 is also no included test framework, so if you choose to write tests you will need to add whichever framework you are comfortable with
-as well as instructions on how to run your tests.
+as well as instructions on how to run your tests. [rspec](https://github.com/rspec/rspec-rails) is a popular test framework and one we use
+at TWG!
 
 Below you are given a list of business requirements. Within a reasonable timeframe (try to spend no more than 2 hours!) we 
 would like you to implement the requirements as you see fit. In addition to the requirements listed, please leave time 
-to fill out the [requirements questions](#requirements-questions) and address any [future concerns](#future-concerns) you 
-may think of. You are also encouraged to add sections of your own to the README, such as instructions on how to use the system or how to run your tests.
+to document any [requirements questions](#requirements-questions) and address any [future concerns](#future-concerns) you 
+may think of. You are also encouraged to add sections of your own to a README, such as instructions on how to use the system or how to run your tests.
+
+> __Before moving forward, complete the following steps:__
+> 1. Rename this file (`README.md`) to `INSTRUCTIONS.md`
+> 2. Create a new file `README.md`
+> 3. Commit the change! The new empty README.md file will be where you will answer any questions as well as document your own project.
+
+## Dependencies
+This project depends on ruby version `3.1.2` being installed in the local environment.
+
+To install gem dependencies, use the included bundler binstub, available in the project at `bin/bundle`. You can run `bin/bundle -h` to see options,
+but either `bin/bundle` or `bin/bundle install` will install gem dependencies.
+
+After installing ruby 3.1.2 and other gem dependencies, to ensure the project can run on your machine, run `bin/rails s` from your terminal and expect to see the following output:
+```shell
+=> Booting Puma
+=> Rails 7.0.3.1 application starting in development
+=> Run `bin/rails server --help` for more startup options
+Puma starting in single mode...
+* Puma version: 5.6.4 (ruby 3.1.2-p20) ("Birdie's Version")
+*  Min threads: 5
+*  Max threads: 5
+*  Environment: development
+*          PID: 28693
+* Listening on http://127.0.0.1:3000
+* Listening on http://[::1]:3000
+Use Ctrl-C to stop
+```
 
 ## Requirements
 
